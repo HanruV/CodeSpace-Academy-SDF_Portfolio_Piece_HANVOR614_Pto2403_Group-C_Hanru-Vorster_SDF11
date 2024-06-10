@@ -47,13 +47,13 @@
         <div>
             <img class="h-8 px-4" src="./assets/component-1/navigation/cache-bank-logo.png" alt="a green bank card with the text cache next to it">
         </div>
-        <div class="md:flex items-center justify-between text-black gap-12">
+        <div class="hidden md:flex items-center justify-between text-black gap-12">
             <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="">Products</a>
             <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="">Features</a>
             <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="">Get Started</a>
             <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="">Contact</a>
         </div>
-        <div class="gap-8 p-4 items-center md:flex">
+        <div class="hidden gap-8 p-4 items-center md:flex">
             <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log In</button>
             <button class="text-sm font-bold text-blue-800 px-4 py-2 bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
         </div>
@@ -86,17 +86,13 @@
             </defs>
           </svg>
         </button>
-        <div class="absolute flex md:flex flex-col items-start justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-8 shadow-main">
-            <div class="md:flex items-center justify-between text-black gap-12">
+        <div class="absolute md:hidden flex flex-col items-center justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-8 shadow-main" id="mobile-menu">
                 <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="">Products</a>
                 <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="">Features</a>
                 <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="">Get Started</a>
                 <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="">Contact</a>
-            </div>
-            <div class="gap-8 p-4 items-center md:flex">
                 <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log In</button>
                 <button class="text-sm font-bold text-blue-800 px-4 py-2 bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
-            </div>
         </div>   
       </nav>
     </section>
@@ -118,7 +114,7 @@
     <!-- Full-width footer container with green background -->
   </div>
   <script>
-    document.getElementById("mobile-menu-toggle").addEventListener("click", function() {alert("Hello!")});
+    document.getElementById("mobile-menu-toggle").addEventListener("click", function() {document.getElementById("mobile-menu").classList.toggle("hidden")})
   </script>
   <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
