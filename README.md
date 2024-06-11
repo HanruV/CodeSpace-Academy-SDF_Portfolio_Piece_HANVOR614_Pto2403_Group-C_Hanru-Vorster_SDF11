@@ -41,4 +41,4 @@
 
 - Here the endorsements are showcased to show credibility and establish trust with future clients
 - The call to action "buttons" have been made bigger, with a standout color, and a shadow has been added to enhance attention gain
-- In this component grid has been used mobile 1st as 1 col and then span into 2 cols when on bigger screens. The grid composes of 2 sectionsm, 1 for the heading, paragragh, buttons, and the other for the image. The grid display allows us more flexibility on bigger layouts to control how data is displayd on various screens
+- In this component grid has been used on a mobile 1st approach, as 1 col for smaller screens and then span into 2 cols for bigger screens. The grid composes of 2 sections, 1 for the heading, paragragh, and buttons; The other for the image. The grid display allows us more flexibility on bigger layouts to control how data is displayd on various screens sizes
