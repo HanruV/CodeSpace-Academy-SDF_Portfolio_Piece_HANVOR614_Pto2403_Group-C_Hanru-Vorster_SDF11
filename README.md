@@ -2,33 +2,33 @@
 
 ## Objectives
 
--Demonstrate Web Development Skills
-    -Media design
-    -Web structuring
-    -Styling of elements
-    -Responsive design
-    -Version control
+- Demonstrate Web Development Skills
+    - Media design
+    - Web structuring
+    - Styling of elements
+    - Responsive design
+    - Version control
 
--Soft Skills
-    -Presenting code
-    -Adhering to briefs
+- Soft Skills
+    - Presenting code
+    - Adhering to briefs
 
--Other
-    -Adhering to best coding practices
-    -Documentation
+- Other
+    - Adhering to best coding practices
+    - Documentation
 
 ## Tech-stack used
     
--HTML
--CSS (Tailwind)
--Java Script
+- HTML
+- CSS (Tailwind)
+- Java Script
 
 ## Project structure
 
--Component 1 (Navigation)
--Component 2 (Products)
--Component 3 (Features)
--Component 4 (Pricing)
--Component 5 (Company)
--Footer
+- Component 1 (Navigation)
+- Component 2 (Products)
+- Component 3 (Features)
+- Component 4 (Pricing)
+- Component 5 (Company)
+- Footer
 
