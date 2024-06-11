@@ -40,5 +40,5 @@
 #### Component 2
 
 - Here the endorsements are showcased to show credibility and establish trust with future clients
-- The call to action "buttons" have been made bigger, with a standout color, and a shadow has been added to enhance attention gain
+- The call to action "buttons" have been imported from tailwindcomponents and custom project styles have been applied. The use of 3D buttons and vivid colors grabs the attention of users more
 - In this component grid has been used on a mobile 1st approach, as 1 col for smaller screens and then span into 2 cols for bigger screens. The grid composes of 2 sections, 1 for the heading, paragragh, and buttons; The other for the image. The grid display allows us more flexibility on bigger layouts to control how data is displayd on various screens sizes
