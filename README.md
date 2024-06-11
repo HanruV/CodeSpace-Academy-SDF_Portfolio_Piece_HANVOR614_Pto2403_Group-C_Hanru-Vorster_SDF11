@@ -32,3 +32,7 @@
 - Component 5 (Company)
 - Footer
 
+### Component 1
+
+- Showcasing the use of **"hidden"** and the **"md:"** utility classes to reveal/hide <a> and <button> elements
+- Using JS to toggel a **"hidden"** utility class on a <button> to reveale a **moblie-menu**
